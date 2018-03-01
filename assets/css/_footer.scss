@@ -1,0 +1,95 @@
+$piura: #FFBF00;
+footer{
+	.info{
+		padding: 30px;
+		background: #1C1C1C;
+		.columna{
+			padding: 15px;
+			.titulo{
+				color: #fff;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			.parrafo{
+				text-align: left;
+				color: #6E6E6E;
+				&.iconos{
+					i{
+						color: #fff;
+						font-size: 16px;
+						margin-right: 10px;
+					}
+				}
+				&.twitter{
+					line-height: 30px;
+					.enlace{
+						color: $piura;
+						text-decoration: none;
+					}
+					.small{
+						color: #fff;
+					}
+				}
+
+				& i{
+					color: #1da1f2;
+				}
+			}
+			.who{
+				text-align: right;
+				color: #6E6E6E;
+			}
+			&.social{
+			.p{
+				color: #6E6E6E;
+			}
+			a{
+				display: block;
+				color: #6E6E6E;
+				text-decoration: none;
+				margin-bottom: 20px;
+				i{
+				border-radius: 100%;
+				color: #fff;
+				font-size: 18px;
+				border-radius: 100%;
+				background: #151515;
+				padding: 10px;
+				width: 50px;
+				text-align: center;
+				margin-right: 5px;
+				&.facebook{
+					background: #3b5998;
+				}
+				&.twitter{
+					background: #1da1f2;
+				}
+				&.youtube{
+					background: #ff0000;
+				}
+				&.instagram{
+					background: #e1306c;
+				}
+				}
+				
+			}
+		}
+		}
+	}
+
+	.pie{
+		padding: 20px;
+		background: #151515;
+		.parrafo{
+			color: #fff;
+			text-align: center;
+			font-size: 16px;
+			.yo{
+				color: $piura;
+			}
+		}
+		
+		
+		
+	}
+}

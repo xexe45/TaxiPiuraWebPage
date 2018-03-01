@@ -1,0 +1,339 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  background: url("../imgs/2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  header .cabecera {
+    padding: 20px; }
+    header .cabecera .info {
+      margin-top: 10px; }
+      header .cabecera .info a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        margin-right: 50px; }
+    header .cabecera .buscar .input-group input {
+      background: none;
+      border: none;
+      border-bottom: 1px solid #fff; }
+    header .cabecera .buscar .input-group-btn button {
+      background: none;
+      color: #fff;
+      border: none; }
+  header .navegacion {
+    background: #1C1C1C;
+    padding: 25px 20px; }
+    header .navegacion .titulo {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 50px; }
+    header .navegacion .nav {
+      margin: 40px 0;
+      font-weight: bold; }
+      header .navegacion .nav a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px; }
+        header .navegacion .nav a.active {
+          color: #FFBF00; }
+    header .navegacion .social {
+      margin: 25px 0;
+      font-weight: bold; }
+      header .navegacion .social a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 20px;
+        border-radius: 100%;
+        background: #151515;
+        padding: 10px;
+        width: 50px;
+        text-align: center; }
+        header .navegacion .social a.facebook:hover {
+          background: #3b5998; }
+        header .navegacion .social a.twitter:hover {
+          background: #1da1f2; }
+        header .navegacion .social a.youtube:hover {
+          background: #ff0000; }
+        header .navegacion .social a.instagram:hover {
+          background: #e1306c; }
+  header .presentacion {
+    margin: 80px 0;
+    font-family: 'Inconsolata', monospace; }
+    header .presentacion .texto {
+      font-size: 60px;
+      color: #fff;
+      font-weight: 500; }
+      header .presentacion .texto span {
+        font-size: 200%;
+        margin: 0 30px; }
+    header .presentacion p {
+      color: #fff;
+      font-size: 30px; }
+    header .presentacion .mas {
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 30px;
+      text-align: center;
+      background: #FFBF00;
+      color: #000;
+      margin-top: 30px; }
+      header .presentacion .mas:hover {
+        background: none;
+        border: 1px solid #fff;
+        color: #fff; }
+
+@media only screen and (max-width: 500px) {
+  /*
+  header{
+  	.navegacion{
+  		padding: 5px;
+  		.nav{
+  			display: none;
+  		}
+  	}
+  }
+  */ }
+.main .welcome {
+  padding: 30px; }
+  .main .welcome .bienvenido .saludar {
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .main .welcome .bienvenido .parrafo {
+    color: #848484;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .main .welcome .thumbs .thumb .sbtitle {
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace; }
+  .main .welcome .thumbs .thumb .parrafo {
+    color: #848484;
+    text-align: justify; }
+.main .about {
+  padding: 30px;
+  background: url("../imgs/8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff; }
+  .main .about .about-us .sobre {
+    font-family: 'Inconsolata', monospace;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .main .about .about-us .parrafo {
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .main .about .descripcion .texto .us {
+    margin-bottom: 30px; }
+  .main .about .descripcion .texto .parrafos {
+    line-height: 25px; }
+.main .offer {
+  background: url("../imgs/6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .main .offer .text {
+    padding: 80px;
+    background: #fff; }
+    .main .offer .text .titulo {
+      font-size: 4em;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .main .offer .text .upper {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 35px; }
+    .main .offer .text .parrafo {
+      color: #A4A4A4;
+      line-height: 25px; }
+.main .testimonios {
+  background: #FAFAFA;
+  padding: 30px; }
+  .main .testimonios .bienvenido .saludar {
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .main .testimonios .bienvenido .parrafo {
+    color: #848484;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .main .testimonios .thumbs .says .titulo {
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase; }
+  .main .testimonios .thumbs .says .say .parrafo {
+    color: #A4A4A4;
+    line-height: 25px; }
+  .main .testimonios .thumbs .says .say .who {
+    color: #FFBF00;
+    font-weight: bold; }
+  .main .testimonios .thumbs .ofertas .titulo {
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase; }
+  .main .testimonios .thumbs .thumb .thumbnail {
+    border: none; }
+  .main .testimonios .thumbs .thumb .sbtitle {
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace; }
+  .main .testimonios .thumbs .thumb .parrafo {
+    color: #848484;
+    text-align: justify; }
+.main .rates {
+  padding: 30px;
+  background: url("../imgs/5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .main .rates .about-us {
+    color: #fff; }
+    .main .rates .about-us .sobre {
+      font-family: 'Inconsolata', monospace;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .main .rates .about-us .parrafo {
+      line-height: 30px;
+      margin-bottom: 30px; }
+  .main .rates .precios .ofrecer {
+    background: #fff;
+    border-radius: 5px; }
+    .main .rates .precios .ofrecer .precio {
+      padding: 20px; }
+      .main .rates .precios .ofrecer .precio.active {
+        border-right: 2px solid #D8D8D8; }
+      .main .rates .precios .ofrecer .precio h4 {
+        font-weight: bold;
+        padding: 20px;
+        text-transform: uppercase; }
+.main .rates {
+  padding: 20px; }
+.main .contact {
+  padding: 30px; }
+  .main .contact .bienvenido .saludar {
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .main .contact .bienvenido .parrafo {
+    color: #848484;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .main .contact .info h4 {
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .main .contact .info .where {
+    margin-bottom: 20px; }
+    .main .contact .info .where .parrafo {
+      color: #848484; }
+  .main .contact .escribenos h4 {
+    font-weight: bold;
+    margin-bottom: 25px; }
+  .main .contact .btn-piura {
+    background: #FFBF00;
+    padding: 10px 70px; }
+  .main .contact .map {
+    margin-top: 20px; }
+
+@media only screen and (max-width: 500px) {
+  .main .welcome {
+    padding: 20px; }
+    .main .welcome .bienvenido .saludar {
+      font-family: 'Inconsolata', monospace;
+      font-size: 3em; }
+  .main .about {
+    padding: 20px; }
+    .main .about .descripcion .texto .us {
+      text-align: center; }
+  .main .offer .text {
+    padding: 50px; }
+    .main .offer .text .titulo {
+      font-size: 2em;
+      text-align: center; }
+  .main .testimonios {
+    padding: 20px; }
+    .main .testimonios .bienvenido .saludar {
+      font-size: 3em; }
+  .main .contact {
+    padding: 20px; }
+    .main .contact .bienvenido .saludar {
+      font-size: 3em; } }
+footer .info {
+  padding: 30px;
+  background: #1C1C1C; }
+  footer .info .columna {
+    padding: 15px; }
+    footer .info .columna .titulo {
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    footer .info .columna .parrafo {
+      text-align: left;
+      color: #6E6E6E; }
+      footer .info .columna .parrafo.iconos i {
+        color: #fff;
+        font-size: 16px;
+        margin-right: 10px; }
+      footer .info .columna .parrafo.twitter {
+        line-height: 30px; }
+        footer .info .columna .parrafo.twitter .enlace {
+          color: #FFBF00;
+          text-decoration: none; }
+        footer .info .columna .parrafo.twitter .small {
+          color: #fff; }
+      footer .info .columna .parrafo i {
+        color: #1da1f2; }
+    footer .info .columna .who {
+      text-align: right;
+      color: #6E6E6E; }
+    footer .info .columna.social .p {
+      color: #6E6E6E; }
+    footer .info .columna.social a {
+      display: block;
+      color: #6E6E6E;
+      text-decoration: none;
+      margin-bottom: 20px; }
+      footer .info .columna.social a i {
+        border-radius: 100%;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 100%;
+        background: #151515;
+        padding: 10px;
+        width: 50px;
+        text-align: center;
+        margin-right: 5px; }
+        footer .info .columna.social a i.facebook {
+          background: #3b5998; }
+        footer .info .columna.social a i.twitter {
+          background: #1da1f2; }
+        footer .info .columna.social a i.youtube {
+          background: #ff0000; }
+        footer .info .columna.social a i.instagram {
+          background: #e1306c; }
+footer .pie {
+  padding: 20px;
+  background: #151515; }
+  footer .pie .parrafo {
+    color: #fff;
+    text-align: center;
+    font-size: 16px; }
+    footer .pie .parrafo .yo {
+      color: #FFBF00; }
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,300 @@
+$texto: #848484;
+$about: #fff;
+.main{
+	.welcome{
+		padding: 30px;
+		.bienvenido{
+			.saludar{
+				font-family: 'Inconsolata', monospace;
+				font-size: 4em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.parrafo{
+				color: $texto;
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		.thumbs{
+			.thumb{
+				.sbtitle{
+					font-weight: bold;
+					font-family: 'Inconsolata', monospace;
+				}
+				.parrafo{
+					color: $texto;
+					text-align: justify;
+				}
+				
+			}
+
+		}
+	}
+	.about{
+		padding: 30px;
+		background: url('../imgs/8.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		color: $about;
+		.about-us{
+			.sobre{
+				font-family: 'Inconsolata', monospace;
+				font-size: 60px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.parrafo{
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		.descripcion{
+			.texto{
+				.us{
+					margin-bottom: 30px;
+				}
+				.parrafos{
+					line-height: 25px;
+
+				}
+			}
+		}
+	}
+
+	.offer{
+		background: url('../imgs/6.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		.text{
+			padding: 80px;
+			background: #fff;
+			.titulo{
+				font-size: 4em;
+				font-weight: bold;
+				margin-bottom: 20px;
+				
+			}
+			.upper{
+				text-transform: uppercase;
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 35px;
+			}
+			.parrafo{
+				color: #A4A4A4;
+				line-height: 25px;
+			}
+		}
+	}
+	.testimonios{
+		background: #FAFAFA;
+		padding: 30px;
+		.bienvenido{
+			.saludar{
+				font-family: 'Inconsolata', monospace;
+				font-size: 4em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.parrafo{
+				color: $texto;
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		.thumbs{
+			.says{
+				.titulo{
+					font-weight: bold;
+					margin-bottom: 30px;
+					text-transform: uppercase;
+				}
+				.say{
+					.parrafo{
+						color: #A4A4A4;
+						line-height: 25px;
+					}
+					.who{
+						color: $piura;
+						font-weight: bold;
+					}
+					
+				}
+			}
+			.ofertas{
+				.titulo{
+					font-weight: bold;
+					margin-bottom: 30px;
+					text-transform: uppercase;
+				}
+			}
+			.thumb{
+				.thumbnail{
+					border: none;
+				}
+				.sbtitle{
+					font-weight: bold;
+					font-family: 'Inconsolata', monospace;
+				}
+				.parrafo{
+					color: $texto;
+					text-align: justify;
+				}
+				
+			}
+
+		}
+	}
+	.rates{
+		padding: 30px;
+		background: url('../imgs/5.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		
+		.about-us{
+			color: $about;
+			.sobre{
+				font-family: 'Inconsolata', monospace;
+				font-size: 60px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.parrafo{
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		.precios{
+			.ofrecer{
+				background: #fff;
+				border-radius: 5px;
+				.precio{
+					padding: 20px;
+					&.active{
+						border-right: 2px solid #D8D8D8;
+					}
+				
+					h4{
+						font-weight: bold;
+						padding: 20px;
+						text-transform: uppercase;
+					}
+				}
+
+			}
+		}
+		
+	}
+	.rates{
+		padding: 20px;
+	}
+	.contact{
+		padding: 30px;
+		.bienvenido{
+			.saludar{
+				font-family: 'Inconsolata', monospace;
+				font-size: 4em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.parrafo{
+				color: $texto;
+				line-height: 30px;
+				margin-bottom: 30px;
+			}
+		}
+		.info{
+			h4{
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			.where{
+				margin-bottom: 20px;
+				.parrafo{
+					color: $texto;
+				}
+			}
+			
+
+		}
+		.escribenos{
+			h4{
+				font-weight: bold;
+				margin-bottom: 25px;
+			}
+		}
+		.btn-piura{
+			background: $piura;
+			padding: 10px 70px;
+		}
+		.map{
+			margin-top: 20px;
+
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 500px) {
+   	.main{
+   		.welcome{
+   			padding: 20px;
+   			.bienvenido{
+			.saludar{
+				font-family: 'Inconsolata', monospace;
+				font-size: 3em;
+				
+			}
+			
+			}
+   		}
+   		.about{
+   			padding: 20px;
+   			.descripcion{
+   				.texto{
+					.us{
+						text-align: center;
+					}
+				
+				}
+   			}
+   		}
+   		.offer{
+   			.text{
+				padding: 50px;
+				.titulo{
+					font-size: 2em;
+					text-align: center;
+
+				}
+			
+			}
+   		}
+   		.testimonios{
+   			padding: 20px;
+   			.bienvenido{
+				.saludar{
+					
+					font-size: 3em;
+					
+				}		
+			}
+   		}
+   		.contact{
+			padding: 20px;
+			.bienvenido{
+				.saludar{
+					font-size: 3em;
+				}
+				
+			}
+			
+		}
+   	}
+}
